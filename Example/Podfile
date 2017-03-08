@@ -1,0 +1,6 @@
+use_frameworks!
+target 'AMGLanguageManager_Tests' do
+  pod 'AMGLanguageManager', :path => '../'
+  
+  
+end
