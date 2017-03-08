@@ -7,7 +7,32 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To initialize the singleton, just set the available languages in didFinishLaunching like this:
+
+```
+AMGLanguageManager.shared.initialize(withLanguages: ["en", "es"])
+```
+
+Then in code just
+
+```
+AMGLanguageManager.shared.localizedString(key: "str_key")
+```
+
+to retrieve the localized string.
+
+You can also get localized resource path like this:
+
+```
+AMGLanguageManager.shared.localizedPath(forResource: "filename", ofType: "extension")
+```
+
+To change the language in any part of the app just set:
+
+```
+AMGLanguageManager.shared.setLanguage(name: "es")
+```
+
 
 ## Requirements
 

@@ -1,0 +1,16 @@
+PODS:
+  - AMGLanguageManager (0.1.0)
+
+DEPENDENCIES:
+  - AMGLanguageManager (from `../`)
+
+EXTERNAL SOURCES:
+  AMGLanguageManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AMGLanguageManager: b3528e7da2573b83b77e6f55cd4b5ac04df85b0b
+
+PODFILE CHECKSUM: 9f91d1a4bc1ef8db371a9d23b48da05fc89bba7f
+
+COCOAPODS: 1.2.0

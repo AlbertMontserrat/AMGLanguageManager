@@ -1,0 +1,6 @@
+framework module AMGLanguageManager {
+  umbrella header "AMGLanguageManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

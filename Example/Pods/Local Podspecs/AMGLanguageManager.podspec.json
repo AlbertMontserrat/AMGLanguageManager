@@ -1,0 +1,22 @@
+{
+  "name": "AMGLanguageManager",
+  "version": "0.1.0",
+  "summary": "A short description of AMGLanguageManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/albert.montserrat.gambus@gmail.com/AMGLanguageManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "albert.montserrat.gambus@gmail.com": "albert.montserrat@pangeareality.com"
+  },
+  "source": {
+    "git": "https://github.com/albert.montserrat.gambus@gmail.com/AMGLanguageManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AMGLanguageManager/Classes/**/*"
+}
