@@ -9,17 +9,63 @@
 /* Begin PBXBuildFile section */
 		5B43F7E2EAEA2734B64EBCB9 /* Pods_AMGLanguageManager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7AE167C063D2826C72E516 /* Pods_AMGLanguageManager_Tests.framework */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		AD64368E1E7053F4001FAA82 /* Tests2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6436771E7053F4001FAA82 /* Tests2.swift */; };
+		AD64368F1E7053F4001FAA82 /* Tests3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6436781E7053F4001FAA82 /* Tests3.swift */; };
+		AD6436901E7053F4001FAA82 /* Tests4.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6436791E7053F4001FAA82 /* Tests4.swift */; };
+		AD6436911E7053F4001FAA82 /* Tests5.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD64367A1E7053F4001FAA82 /* Tests5.swift */; };
+		AD6436921E7053F4001FAA82 /* Tests6.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD64367B1E7053F4001FAA82 /* Tests6.swift */; };
+		AD6436931E7053F4001FAA82 /* Tests7.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD64367C1E7053F4001FAA82 /* Tests7.swift */; };
+		AD6436941E7053F4001FAA82 /* Tests8.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD64367D1E7053F4001FAA82 /* Tests8.swift */; };
+		AD6436951E7053F4001FAA82 /* Tests9.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD64367E1E7053F4001FAA82 /* Tests9.swift */; };
+		AD6436961E7053F4001FAA82 /* Tests10.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD64367F1E7053F4001FAA82 /* Tests10.swift */; };
+		AD6436971E7053F4001FAA82 /* Tests11.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6436801E7053F4001FAA82 /* Tests11.swift */; };
+		AD6436981E7053F4001FAA82 /* Tests12.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6436811E7053F4001FAA82 /* Tests12.swift */; };
+		AD6436991E7053F4001FAA82 /* Tests13.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6436821E7053F4001FAA82 /* Tests13.swift */; };
+		AD64369A1E7053F4001FAA82 /* Tests14.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6436831E7053F4001FAA82 /* Tests14.swift */; };
+		AD64369B1E7053F4001FAA82 /* Tests15.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6436841E7053F4001FAA82 /* Tests15.swift */; };
+		AD64369C1E7053F4001FAA82 /* Tests16.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6436851E7053F4001FAA82 /* Tests16.swift */; };
+		AD64369D1E7053F4001FAA82 /* Tests18.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6436861E7053F4001FAA82 /* Tests18.swift */; };
+		AD64369E1E7053F4001FAA82 /* Tests19.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6436871E7053F4001FAA82 /* Tests19.swift */; };
+		AD64369F1E7053F4001FAA82 /* Tests20.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6436881E7053F4001FAA82 /* Tests20.swift */; };
+		AD6436A01E7053F4001FAA82 /* Tests21.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6436891E7053F4001FAA82 /* Tests21.swift */; };
+		AD6436A11E7053F4001FAA82 /* Tests22.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD64368A1E7053F4001FAA82 /* Tests22.swift */; };
+		AD6436A21E7053F4001FAA82 /* Tests23.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD64368B1E7053F4001FAA82 /* Tests23.swift */; };
+		AD6436A31E7053F4001FAA82 /* Tests24.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD64368C1E7053F4001FAA82 /* Tests24.swift */; };
+		AD6436A41E7053F4001FAA82 /* Tests25.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD64368D1E7053F4001FAA82 /* Tests25.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		10E5F7281C32C870C56CAD1F /* Pods-AMGLanguageManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMGLanguageManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMGLanguageManager_Tests/Pods-AMGLanguageManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2A8024A8380A18F4162B1D80 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		33A83AEE3270AAE6E6DEC355 /* AMGLanguageManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AMGLanguageManager.podspec; path = ../AMGLanguageManager.podspec; sourceTree = "<group>"; };
+		2A8024A8380A18F4162B1D80 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		33A83AEE3270AAE6E6DEC355 /* AMGLanguageManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AMGLanguageManager.podspec; path = ../AMGLanguageManager.podspec; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* AMGLanguageManager_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMGLanguageManager_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		AD6436771E7053F4001FAA82 /* Tests2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests2.swift; sourceTree = "<group>"; };
+		AD6436781E7053F4001FAA82 /* Tests3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests3.swift; sourceTree = "<group>"; };
+		AD6436791E7053F4001FAA82 /* Tests4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests4.swift; sourceTree = "<group>"; };
+		AD64367A1E7053F4001FAA82 /* Tests5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests5.swift; sourceTree = "<group>"; };
+		AD64367B1E7053F4001FAA82 /* Tests6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests6.swift; sourceTree = "<group>"; };
+		AD64367C1E7053F4001FAA82 /* Tests7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests7.swift; sourceTree = "<group>"; };
+		AD64367D1E7053F4001FAA82 /* Tests8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests8.swift; sourceTree = "<group>"; };
+		AD64367E1E7053F4001FAA82 /* Tests9.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests9.swift; sourceTree = "<group>"; };
+		AD64367F1E7053F4001FAA82 /* Tests10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests10.swift; sourceTree = "<group>"; };
+		AD6436801E7053F4001FAA82 /* Tests11.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests11.swift; sourceTree = "<group>"; };
+		AD6436811E7053F4001FAA82 /* Tests12.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests12.swift; sourceTree = "<group>"; };
+		AD6436821E7053F4001FAA82 /* Tests13.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests13.swift; sourceTree = "<group>"; };
+		AD6436831E7053F4001FAA82 /* Tests14.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests14.swift; sourceTree = "<group>"; };
+		AD6436841E7053F4001FAA82 /* Tests15.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests15.swift; sourceTree = "<group>"; };
+		AD6436851E7053F4001FAA82 /* Tests16.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests16.swift; sourceTree = "<group>"; };
+		AD6436861E7053F4001FAA82 /* Tests18.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests18.swift; sourceTree = "<group>"; };
+		AD6436871E7053F4001FAA82 /* Tests19.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests19.swift; sourceTree = "<group>"; };
+		AD6436881E7053F4001FAA82 /* Tests20.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests20.swift; sourceTree = "<group>"; };
+		AD6436891E7053F4001FAA82 /* Tests21.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests21.swift; sourceTree = "<group>"; };
+		AD64368A1E7053F4001FAA82 /* Tests22.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests22.swift; sourceTree = "<group>"; };
+		AD64368B1E7053F4001FAA82 /* Tests23.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests23.swift; sourceTree = "<group>"; };
+		AD64368C1E7053F4001FAA82 /* Tests24.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests24.swift; sourceTree = "<group>"; };
+		AD64368D1E7053F4001FAA82 /* Tests25.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests25.swift; sourceTree = "<group>"; };
 		B24546345D9BCCDE6AF6F701 /* Pods-AMGLanguageManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMGLanguageManager_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMGLanguageManager_Tests/Pods-AMGLanguageManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BF757A9B1EBC59D467FDC86C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BF757A9B1EBC59D467FDC86C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FE7AE167C063D2826C72E516 /* Pods_AMGLanguageManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMGLanguageManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -66,6 +112,29 @@
 			isa = PBXGroup;
 			children = (
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				AD6436771E7053F4001FAA82 /* Tests2.swift */,
+				AD6436781E7053F4001FAA82 /* Tests3.swift */,
+				AD6436791E7053F4001FAA82 /* Tests4.swift */,
+				AD64367A1E7053F4001FAA82 /* Tests5.swift */,
+				AD64367B1E7053F4001FAA82 /* Tests6.swift */,
+				AD64367C1E7053F4001FAA82 /* Tests7.swift */,
+				AD64367D1E7053F4001FAA82 /* Tests8.swift */,
+				AD64367E1E7053F4001FAA82 /* Tests9.swift */,
+				AD64367F1E7053F4001FAA82 /* Tests10.swift */,
+				AD6436801E7053F4001FAA82 /* Tests11.swift */,
+				AD6436811E7053F4001FAA82 /* Tests12.swift */,
+				AD6436821E7053F4001FAA82 /* Tests13.swift */,
+				AD6436831E7053F4001FAA82 /* Tests14.swift */,
+				AD6436841E7053F4001FAA82 /* Tests15.swift */,
+				AD6436851E7053F4001FAA82 /* Tests16.swift */,
+				AD6436861E7053F4001FAA82 /* Tests18.swift */,
+				AD6436871E7053F4001FAA82 /* Tests19.swift */,
+				AD6436881E7053F4001FAA82 /* Tests20.swift */,
+				AD6436891E7053F4001FAA82 /* Tests21.swift */,
+				AD64368A1E7053F4001FAA82 /* Tests22.swift */,
+				AD64368B1E7053F4001FAA82 /* Tests23.swift */,
+				AD64368C1E7053F4001FAA82 /* Tests24.swift */,
+				AD64368D1E7053F4001FAA82 /* Tests25.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -131,10 +200,6 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0820;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0820;
@@ -223,7 +288,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD6436991E7053F4001FAA82 /* Tests13.swift in Sources */,
+				AD64369E1E7053F4001FAA82 /* Tests19.swift in Sources */,
+				AD6436A21E7053F4001FAA82 /* Tests23.swift in Sources */,
+				AD6436961E7053F4001FAA82 /* Tests10.swift in Sources */,
+				AD64369D1E7053F4001FAA82 /* Tests18.swift in Sources */,
+				AD64369C1E7053F4001FAA82 /* Tests16.swift in Sources */,
+				AD64368E1E7053F4001FAA82 /* Tests2.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				AD6436941E7053F4001FAA82 /* Tests8.swift in Sources */,
+				AD6436921E7053F4001FAA82 /* Tests6.swift in Sources */,
+				AD6436A41E7053F4001FAA82 /* Tests25.swift in Sources */,
+				AD6436911E7053F4001FAA82 /* Tests5.swift in Sources */,
+				AD6436A11E7053F4001FAA82 /* Tests22.swift in Sources */,
+				AD6436A01E7053F4001FAA82 /* Tests21.swift in Sources */,
+				AD6436951E7053F4001FAA82 /* Tests9.swift in Sources */,
+				AD6436A31E7053F4001FAA82 /* Tests24.swift in Sources */,
+				AD6436931E7053F4001FAA82 /* Tests7.swift in Sources */,
+				AD6436971E7053F4001FAA82 /* Tests11.swift in Sources */,
+				AD64369B1E7053F4001FAA82 /* Tests15.swift in Sources */,
+				AD6436901E7053F4001FAA82 /* Tests4.swift in Sources */,
+				AD6436981E7053F4001FAA82 /* Tests12.swift in Sources */,
+				AD64369A1E7053F4001FAA82 /* Tests14.swift in Sources */,
+				AD64368F1E7053F4001FAA82 /* Tests3.swift in Sources */,
+				AD64369F1E7053F4001FAA82 /* Tests20.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
