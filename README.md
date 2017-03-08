@@ -33,6 +33,14 @@ To change the language in any part of the app just set:
 AMGLanguageManager.shared.setLanguage(name: "es")
 ```
 
+To use NSLocalizedString just as before but with the AMGLanguageManager you can modify the macro like this:
+
+```
+#undef NSLocalizedString
+#define NSLocalizedString(key,_comment) AMGLanguageManager.shared.localizedString(key: key)
+```
+
+
 
 ## Requirements
 
