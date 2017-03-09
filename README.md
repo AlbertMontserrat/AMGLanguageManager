@@ -52,7 +52,7 @@ pod "AMGLanguageManager"
 
 ## Author
 
-albert.montserrat.gambus@gmail.com, albert.montserrat@pangeareality.com
+albert.montserrat.gambus@gmail.com
 
 ## License
 
