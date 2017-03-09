@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AMGLanguageManager'
-  s.version          = '1.0'
+  s.version          = '1.1'
   s.summary          = 'Language manager that offers the possibility to change the language of the app during the execution.'
   s.description      = <<-DESC
 Language manager acts as a Singleton and offers the possibility to change the language of the app during the execution and get localized string and resources.

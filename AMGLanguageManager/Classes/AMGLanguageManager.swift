@@ -8,17 +8,17 @@
 
 import Foundation
 
-class AMGLanguageManager {
+public class AMGLanguageManager {
     
-    static let shared = AMGLanguageManager()
+    public static let shared = AMGLanguageManager()
     
-    var languages = [String]()
+    public var languages = [String]()
     
-    func initialize(withLanguages languages: [String]) {
+    public func initialize(withLanguages languages: [String]) {
         self.languages = languages
     }
     
-    func setLanguage(name:String) {
+    public func setLanguage(name:String) {
         if !self.languages.contains(name) {
             return
         }
@@ -27,7 +27,7 @@ class AMGLanguageManager {
         UserDefaults.standard.synchronize()
     }
     
-    func getLanguage() -> String? {
+    public func getLanguage() -> String? {
         
         let savedLanguage = UserDefaults.standard.string(forKey: "AMGSelectedLanguage")
         
@@ -55,27 +55,33 @@ class AMGLanguageManager {
             
             self.setLanguage(name: self.languages[0])
             return self.getLanguage()
-
+            
         }
         
     }
     
-    func localizedBundle() -> Bundle? {
+    public func localizedBundle() -> Bundle? {
         let bundlePath = Bundle.main.path(forResource: self.getLanguage(), ofType: "lproj")
         guard let path = bundlePath else { return nil }
         let bundle = Bundle(path: path)
         return bundle
     }
     
-    func localizedString(key:String) -> String{
+    public func localizedString(key:String) -> String {
         guard let bundle = localizedBundle() else { return key }
         return bundle.localizedString(forKey: key, value: "", table: "Localizable")
     }
     
-    func localizedPath(forResource name: String?, ofType ext: String?) -> String? {
+    public func localizedPath(forResource name: String?, ofType ext: String?) -> String? {
         guard let bundle = localizedBundle() else { return nil }
         return bundle.path(forResource: name, ofType: ext)
     }
     
     
+}
+
+public extension String {
+    public func amgLocalized() -> String {
+        return AMGLanguageManager.shared.localizedString(key: self)
+    }
 }
