@@ -694,6 +694,7 @@
 				5CF0F2B81E9651E300265ED4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CF0F2BC1E9651E300265ED4 /* Build configuration list for PBXNativeTarget "AMGLanguageManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -702,6 +703,7 @@
 				5CF0F2BA1E9651E300265ED4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "AMGLanguageManager" */ = {
 			isa = XCConfigurationList;
