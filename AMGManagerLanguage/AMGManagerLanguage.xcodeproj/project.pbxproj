@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CF0F28F1E964B3600265ED4 /* AMGManagerLanguage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CF0F2851E964B3600265ED4 /* AMGManagerLanguage.framework */; };
+		5CF0F2941E964B3600265ED4 /* AMGManagerLanguageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF0F2931E964B3600265ED4 /* AMGManagerLanguageTests.swift */; };
+		5CF0F2961E964B3600265ED4 /* AMGManagerLanguage.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CF0F2881E964B3600265ED4 /* AMGManagerLanguage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CF0F2A01E964C5C00265ED4 /* AMGLanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF0F29F1E964C5C00265ED4 /* AMGLanguageManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CF0F2901E964B3600265ED4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CF0F27C1E964B3600265ED4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CF0F2841E964B3600265ED4;
+			remoteInfo = AMGManagerLanguage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CF0F2851E964B3600265ED4 /* AMGManagerLanguage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AMGManagerLanguage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF0F2881E964B3600265ED4 /* AMGManagerLanguage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMGManagerLanguage.h; sourceTree = "<group>"; };
+		5CF0F2891E964B3600265ED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CF0F28E1E964B3600265ED4 /* AMGManagerLanguageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMGManagerLanguageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF0F2931E964B3600265ED4 /* AMGManagerLanguageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMGManagerLanguageTests.swift; sourceTree = "<group>"; };
+		5CF0F2951E964B3600265ED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CF0F29F1E964C5C00265ED4 /* AMGLanguageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMGLanguageManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CF0F2811E964B3600265ED4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF0F28B1E964B3600265ED4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF0F28F1E964B3600265ED4 /* AMGManagerLanguage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CF0F27B1E964B3600265ED4 = {
+			isa = PBXGroup;
+			children = (
+				5CF0F29F1E964C5C00265ED4 /* AMGLanguageManager.swift */,
+				5CF0F2871E964B3600265ED4 /* AMGManagerLanguage */,
+				5CF0F2921E964B3600265ED4 /* AMGManagerLanguageTests */,
+				5CF0F2861E964B3600265ED4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CF0F2861E964B3600265ED4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CF0F2851E964B3600265ED4 /* AMGManagerLanguage.framework */,
+				5CF0F28E1E964B3600265ED4 /* AMGManagerLanguageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CF0F2871E964B3600265ED4 /* AMGManagerLanguage */ = {
+			isa = PBXGroup;
+			children = (
+				5CF0F2881E964B3600265ED4 /* AMGManagerLanguage.h */,
+				5CF0F2891E964B3600265ED4 /* Info.plist */,
+			);
+			path = AMGManagerLanguage;
+			sourceTree = "<group>";
+		};
+		5CF0F2921E964B3600265ED4 /* AMGManagerLanguageTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CF0F2931E964B3600265ED4 /* AMGManagerLanguageTests.swift */,
+				5CF0F2951E964B3600265ED4 /* Info.plist */,
+			);
+			path = AMGManagerLanguageTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5CF0F2821E964B3600265ED4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF0F2961E964B3600265ED4 /* AMGManagerLanguage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5CF0F2841E964B3600265ED4 /* AMGManagerLanguage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CF0F2991E964B3600265ED4 /* Build configuration list for PBXNativeTarget "AMGManagerLanguage" */;
+			buildPhases = (
+				5CF0F2801E964B3600265ED4 /* Sources */,
+				5CF0F2811E964B3600265ED4 /* Frameworks */,
+				5CF0F2821E964B3600265ED4 /* Headers */,
+				5CF0F2831E964B3600265ED4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMGManagerLanguage;
+			productName = AMGManagerLanguage;
+			productReference = 5CF0F2851E964B3600265ED4 /* AMGManagerLanguage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5CF0F28D1E964B3600265ED4 /* AMGManagerLanguageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CF0F29C1E964B3600265ED4 /* Build configuration list for PBXNativeTarget "AMGManagerLanguageTests" */;
+			buildPhases = (
+				5CF0F28A1E964B3600265ED4 /* Sources */,
+				5CF0F28B1E964B3600265ED4 /* Frameworks */,
+				5CF0F28C1E964B3600265ED4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CF0F2911E964B3600265ED4 /* PBXTargetDependency */,
+			);
+			name = AMGManagerLanguageTests;
+			productName = AMGManagerLanguageTests;
+			productReference = 5CF0F28E1E964B3600265ED4 /* AMGManagerLanguageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CF0F27C1E964B3600265ED4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Pangea;
+				TargetAttributes = {
+					5CF0F2841E964B3600265ED4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6RRCEL95A2;
+						ProvisioningStyle = Automatic;
+					};
+					5CF0F28D1E964B3600265ED4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6RRCEL95A2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5CF0F27F1E964B3600265ED4 /* Build configuration list for PBXProject "AMGManagerLanguage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5CF0F27B1E964B3600265ED4;
+			productRefGroup = 5CF0F2861E964B3600265ED4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CF0F2841E964B3600265ED4 /* AMGManagerLanguage */,
+				5CF0F28D1E964B3600265ED4 /* AMGManagerLanguageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CF0F2831E964B3600265ED4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF0F28C1E964B3600265ED4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CF0F2801E964B3600265ED4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF0F2A01E964C5C00265ED4 /* AMGLanguageManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF0F28A1E964B3600265ED4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF0F2941E964B3600265ED4 /* AMGManagerLanguageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CF0F2911E964B3600265ED4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CF0F2841E964B3600265ED4 /* AMGManagerLanguage */;
+			targetProxy = 5CF0F2901E964B3600265ED4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5CF0F2971E964B3600265ED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5CF0F2981E964B3600265ED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5CF0F29A1E964B3600265ED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6RRCEL95A2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AMGManagerLanguage/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pangea.AMGManagerLanguage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5CF0F29B1E964B3600265ED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6RRCEL95A2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AMGManagerLanguage/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pangea.AMGManagerLanguage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5CF0F29D1E964B3600265ED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6RRCEL95A2;
+				INFOPLIST_FILE = AMGManagerLanguageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pangea.AMGManagerLanguageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5CF0F29E1E964B3600265ED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6RRCEL95A2;
+				INFOPLIST_FILE = AMGManagerLanguageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pangea.AMGManagerLanguageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CF0F27F1E964B3600265ED4 /* Build configuration list for PBXProject "AMGManagerLanguage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF0F2971E964B3600265ED4 /* Debug */,
+				5CF0F2981E964B3600265ED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CF0F2991E964B3600265ED4 /* Build configuration list for PBXNativeTarget "AMGManagerLanguage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF0F29A1E964B3600265ED4 /* Debug */,
+				5CF0F29B1E964B3600265ED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5CF0F29C1E964B3600265ED4 /* Build configuration list for PBXNativeTarget "AMGManagerLanguageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF0F29D1E964B3600265ED4 /* Debug */,
+				5CF0F29E1E964B3600265ED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CF0F27C1E964B3600265ED4 /* Project object */;
+}
