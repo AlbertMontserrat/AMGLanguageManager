@@ -1,5 +1,5 @@
 import UIKit
-import AMGAutolayoutHelper
+import AMGLanguageManager
 
 class Tests18
 
